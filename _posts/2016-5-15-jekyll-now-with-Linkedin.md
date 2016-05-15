@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 如何在jekyll-now中加入你的Linkedin Profile
-date: 2016/5/15
 ---
 
 今天成功部署[jekyll-now](https://github.com/barryclark/jekyll-now)到github pages上，但是我在新增Linkedin檔案的時候，一直無法成功新增。
