@@ -10,4 +10,4 @@ permalink: /about/
 
 ### Contact me
 
-[yhhsu.cs04g@g2.nctu.edu.com](mailto:yhhsu.cs04g@g2.nctu.edu.com)
+[yhhsu.cs04g@nctu.edu.tw](mailto:yhhsu.cs04g@nctu.edu.tw)
