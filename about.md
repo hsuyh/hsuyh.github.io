@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+我是yhhsu, 希望能夠培養自己多多思考，並且用文字記錄下來，
+目前是一名小小研究生，努力想要成為一名怪人中...
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[yhhsu.cs04g@g2.nctu.edu.com](mailto:yhhsu.cs04g@g2.nctu.edu.com)
