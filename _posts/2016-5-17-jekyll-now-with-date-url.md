@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 如何在jekyll-now中加入你的Linkedin Profile
+title: 如何更改 jekyll-now 的url
 ---
 
 原本[jekyll-now](https://github.com/barryclark/jekyll-now)專案中，你的每篇post的url預設都會是這樣的形式：
