@@ -10,10 +10,12 @@ _[yourname.github.io/post's title]()_
 _[yourname.github.io/posts/post's title]()_
 
 可以到_config.yml裡面，
+
 ```ruby
 permalink: /:title/
 ```
 修改permalink那邊的程式碼:
+
 ```ruby
 permalink: /posts/:title/
 ```
