@@ -9,12 +9,12 @@ _[yourname.github.io/post's title]()_
 要是我希望每篇貼文的url可以長得像
 _[yourname.github.io/posts/post's title]()_
 
-可以到_config.yml裡面，
+可以到_config.yml裡面找到設定permalink這行，
 
 ```ruby
 permalink: /:title/
 ```
-修改permalink那邊的程式碼:
+修改permalink的程式碼:
 
 ```ruby
 permalink: /posts/:title/
