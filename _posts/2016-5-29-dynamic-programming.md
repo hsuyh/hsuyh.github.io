@@ -25,6 +25,7 @@ unsigned long fibo(int a){
 所以只好去研究 Dynamic Programming。
 
 >Dynamic Programming包含兩部分。
+>
 1. Recursion: 就是去把一個問題分成許多小問題，再去解決每一個小問題。
 2. Memoization: 當其中很多小問題是有一樣的答案時，我們就可以儲存這些答案，減少處理的時間。
 
