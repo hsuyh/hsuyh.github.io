@@ -36,6 +36,7 @@ Dynamic Programming有以下兩種方法：
 
 
 Bottom-Up 會由最小的子問題開始計算，所以程式碼只需要幾個迴圈，缺點就是她需要計算所有可能問題。
+
 ```c
 void fibo_BottomUp(int a, unsigned long* ptr){
 
@@ -53,6 +54,7 @@ void fibo_BottomUp(int a, unsigned long* ptr){
 ```
 Top-Down  的遞迴結構會強迫從最小問題開始做，我們不必計較計算順序，且不需要去計算所有可能性。
 缺點就是它採用遞迴結構，需要不斷呼叫函式，執行效率較差。
+
 ```c
 unsigned long fibo_TopDown(int a, unsigned long* ptr){
   if(a==1)
