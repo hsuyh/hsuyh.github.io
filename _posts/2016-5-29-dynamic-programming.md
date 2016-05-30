@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dynamic Programming: 以費波那契數列（Fibonacci）為例
+title: Dynamic Programming 以費波那契數列（Fibonacci）為例
 ---
 
 最近看到有人分享他自己到_[日本line公司的經驗](http://wangyung.blogspot.tw/2016/05/blog-post.html)_
