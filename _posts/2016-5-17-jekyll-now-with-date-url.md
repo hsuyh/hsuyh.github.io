@@ -19,3 +19,11 @@ permalink: /:title/
 ```ruby
 permalink: /posts/:title/
 ```
+
+要是想改成
+_[yourname.github.io/posts/year/month/day/post's title]()_
+
+可以修改成
+```ruby
+permalink: /posts/:year/:month/:day/:title/
+```
