@@ -24,6 +24,7 @@ permalink: /posts/:title/
 _[yourname.github.io/posts/year/month/day/post's title]()_
 
 可以修改成
+
 ```ruby
 permalink: /posts/:year/:month/:day/:title/
 ```
