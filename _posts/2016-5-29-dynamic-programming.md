@@ -5,7 +5,7 @@ title: Dynamic Programming 以費波那契數列（Fibonacci）為例
 
 最近看到有人分享他自己到[日本line公司的經驗](http://wangyung.blogspot.tw/2016/05/blog-post.html)
 
-題目要他解一個[費波那契數列的問題](https://zh.wikipedia.org/wiki/斐波那契数列)，但是數字非常大，用遞迴一定解不出來，必須使用dynamic programming來解。
+題目要他解一個[費波那契數列](https://zh.wikipedia.org/wiki/斐波那契数列)的問題，但是數字非常大，用遞迴一定解不出來，必須使用dynamic programming來解。
 看到這個我很疑惑，想到解費氏數列，一定是用遞迴來解，我記得是一個很典型的例子，自己沒去思考過有這個問題，
 而且dynamic programming 這個東西我更是忘得一乾二淨...
 
@@ -52,6 +52,7 @@ void fibo_BottomUp(int a, unsigned long* ptr){
   }
 }
 ```
+
 Top-Down  的遞迴結構會強迫從最小問題開始做，我們不必計較計算順序，且不需要去計算所有可能性。
 缺點就是它採用遞迴結構，需要不斷呼叫函式，執行效率較差。
 
