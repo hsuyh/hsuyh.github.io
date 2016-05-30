@@ -3,9 +3,9 @@ layout: post
 title: Dynamic Programming 以費波那契數列（Fibonacci）為例
 ---
 
-最近看到有人分享他自己到_[日本line公司的經驗](http://wangyung.blogspot.tw/2016/05/blog-post.html)_
+最近看到有人分享他自己到[日本line公司的經驗](http://wangyung.blogspot.tw/2016/05/blog-post.html)
 
-題目要他解一個_[費波那契數列的問題](https://zh.wikipedia.org/wiki/斐波那契数列)_，但是數字非常大，用遞迴一定解不出來，必須使用dynamic programming來解。
+題目要他解一個[費波那契數列的問題](https://zh.wikipedia.org/wiki/斐波那契数列)，但是數字非常大，用遞迴一定解不出來，必須使用dynamic programming來解。
 看到這個我很疑惑，想到解費氏數列，一定是用遞迴來解，我記得是一個很典型的例子，自己沒去思考過有這個問題，
 而且dynamic programming 這個東西我更是忘得一乾二淨...
 
@@ -82,5 +82,5 @@ unsigned long fibo_TopDown(int a, unsigned long* ptr){
 
 
 參考資料：
-1. _[演算法筆記 Dynaimic Programming](http://www.csie.ntnu.edu.tw/~u91029/DynamicProgramming.html#1)_
-2. _[Algorithms](http://algorithms.tutorialhorizon.com/introduction-to-dynamic-programming-fibonacci-series/)_
+1. [演算法筆記 Dynaimic Programming](http://www.csie.ntnu.edu.tw/~u91029/DynamicProgramming.html#1)
+2. [Algorithms](http://algorithms.tutorialhorizon.com/introduction-to-dynamic-programming-fibonacci-series/)
