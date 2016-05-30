@@ -20,6 +20,7 @@ permalink: /:title/
 permalink: /posts/:title/
 ```
 
+
 要是想改成
 _[yourname.github.io/posts/year/month/day/post's title]()_
 
