@@ -51,7 +51,7 @@ void reverseStringRecursive(char *s, int start, int end)
 ```
 
 ### Circular Doubly Linked List
-如果是在我們無法確認陣列大小的情況下，使用linked list 跟前兩個方法比較起來較為有彈性，不會有overflow或是記憶體閒置浪費的問題。 但是他實作起來也比較複雜。 若是使用單向的linked list，我們需要一個一個pop出來才做reverse string，這樣會更加麻煩，所以使用雙向的linked list，透過鏈結的前後往返，來做到reverse。
+如果是在我們無法確認陣列大小的情況下，使用linked list 跟前兩個方法比較起來較為有彈性，不會有overflow或是記憶體閒置浪費的問題，但是他實作起來也比較複雜。 若是使用單向的linked list，我們需要一個一個pop來做reverse string，這樣會比較麻煩，所以使用雙向的linked list，透過鏈結的前後往返，來做到reverse。
 
 
 
