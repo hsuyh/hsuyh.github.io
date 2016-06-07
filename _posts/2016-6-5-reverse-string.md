@@ -3,7 +3,7 @@ layout: post
 title: Reverse string的實作
 ---
 
-在leetcode #334 Reverse String的問題，在這裡記錄一下解法。
+在leetcode #334 Reverse String的[問題](https://leetcode.com/problems/reverse-string/)，在這裡記錄一下解法。
 
 若是給你一個string＝"hello"，你要輸出"olleh"。
 
