@@ -38,7 +38,7 @@ New Toeic 新版多益完全攻略（LiveABC出版）：我覺得這本書單字
 考前九天才買這兩本，盡量讓自己每天做一回閱讀一回聽力，
 模擬試題成績：
 
-![toeic](images/toeic.png)
+![toeic](/images/toeic.png)
 
 
 強烈建議大家聽力閱讀連續一起做，模擬考試當天狀況，而且最好也能練習劃卡，
