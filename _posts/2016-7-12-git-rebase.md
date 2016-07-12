@@ -41,18 +41,31 @@ git rebase -i commit version
 
 今天我打了 git rebase -i HEAD~5
 ![git](/images/rebase1.png)
+你可以看到下面commands部分他寫出你可以做什麼動作。
+
+#### 編輯其中一個message - reword
+如果你今天要編輯某一個commit message，
+把pick 修改成r：
+
+```
+r 3adf8be “Your commit message”
+```
+存擋後他會導到另一個vim下，你可以對你的commit message 進行編輯。
+再次存擋後，你利用git log 就可以發現commit message已經更改成功。
+
+#### 編輯其中一個message - edit
 
 如果你今天要編輯某一個commit message，
 把pick 修改成e：
 
 ```
-e 3adf8be add test comment1.
+e 3adf8be "Your commit message"
 ```
 
 儲存完畢後跳出來，再輸入
 
 ```
-git rebase --amend
+git commit --amend
 ```
 
 對你的commit message 進行修改
