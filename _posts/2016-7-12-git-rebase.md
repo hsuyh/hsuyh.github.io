@@ -16,16 +16,19 @@ title: git rebase 筆記
 ```c
 git commit --amend
 ```
-你就可以像在vim底下編輯一下，直接修改你的commit message。
-
-不過一般情況下，我們需要整理多個commit message的時候，就有以下兩種方法
+你就可以像在vim底下編輯一下，直接修改你上一個 commit message。
 
 
+
+不過一般情況下，我們需要整理多個commit message的時候，就有以下兩種方法：
+
+1.
 ```c
 git rebase -i HEAD~3
 ```
 這裡的3可以換成任何數字，意思是你要更改最近的幾個commit messages。
 
+2. 
 ```c
 git rebase -i commit version
 ```
