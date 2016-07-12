@@ -19,6 +19,7 @@ git commit --amend
 你就可以像在vim底下編輯一下，直接修改你上一個 commit message。
 
 
+### 修改多個commit messages
 
 不過一般情況下，我們需要整理多個commit message的時候，就有以下兩種方法：
 
