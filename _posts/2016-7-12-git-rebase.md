@@ -13,6 +13,8 @@ title: git rebase 筆記
 
 如果你只是想要修改上一個commit，可以用下面這個指令：
 
+### 修改最近的一個 commit message
+
 ```
 git commit --amend
 ```
@@ -25,14 +27,14 @@ git commit --amend
 
 
 
-```c
+```
 git rebase -i HEAD~3
 ```
 這裡的3可以換成任何數字，意思是你要更改最近的幾個commit messages。
 
 
 
-```c
+```
 git rebase -i commit version
 ```
 這裡的 commit version可以透過git log 查看你的commit，通常commit 版本都會是一長串亂碼，
@@ -75,3 +77,20 @@ git rebase --continue
 ```
 
 你再去查看log，就可以發現commit message 已經更改成功。
+
+#### 合併 commit message - squash
+
+
+
+如果你今天你想要把某兩個commit合成一個commit，你就可以使用 squash，
+把pick 修改成s：
+
+```
+s 3adf8be "Your commit message"
+```
+![git squash](/images/rebase2.png)
+
+之後他會讓你更改這兩個commit messages，然後再幫你將他們合併。
+![git squash](/images/squash1.png)
+再看log 你會發現他們確實被合併了。
+![git squash2](/images/squash2.png)
