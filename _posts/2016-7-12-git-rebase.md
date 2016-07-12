@@ -13,7 +13,7 @@ title: git rebase 筆記
 
 如果你只是
 
-```c
+```git
 git rebase --amend
 ```
 
