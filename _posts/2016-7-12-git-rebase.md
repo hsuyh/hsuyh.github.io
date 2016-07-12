@@ -111,5 +111,5 @@ f 3adf8be "Your commit message"
 這個動作不只刪掉你的commit message，他連妳這個commit所更改的程式碼都一起刪掉，
 你只要將整排pick都刪掉，這個commit就被你刪掉了。
 
-![git delete](/images/delete1.png)
-![git delete2](/images/delete2.png)
+![git delete](/images/git delete1.png)
+![git delete2](/images/git delete2.png)
