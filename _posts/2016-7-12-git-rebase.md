@@ -1,6 +1,6 @@
 ---
 layout: post
-title: git rebase 筆記
+title: git rebase - 修改commit messages 筆記
 ---
 
 之前第一次參與open source 專案，很開心的提交了自己的程式碼，但其他開發者就提醒我，
