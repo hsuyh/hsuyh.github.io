@@ -13,7 +13,7 @@ title: git rebase 筆記
 
 如果你只是想要修改上一個commit，可以用下面這個指令：
 
-### 修改最近的一個 commit message
+## 修改最近的一個 commit message
 
 ```
 git commit --amend
@@ -21,17 +21,15 @@ git commit --amend
 你就可以像在vim底下編輯一下，直接修改你上一個 commit message。
 
 
-### 修改多個commit messages
+## 修改多個commit messages
 
 不過一般情況下，我們需要整理多個commit message的時候，就有以下兩種方法：
-
 
 
 ```
 git rebase -i HEAD~3
 ```
 這裡的3可以換成任何數字，意思是你要更改最近的幾個commit messages。
-
 
 
 ```
@@ -46,7 +44,7 @@ git rebase -i commit version
 你可以看到下面commands部分他寫出你可以做什麼動作。
 
 
-#### 編輯其中一個message - reword
+### 編輯其中一個message - reword
 如果你今天要編輯某一個commit message，
 把pick 修改成r：
 
@@ -57,7 +55,7 @@ r 3adf8be “Your commit message”
 再次存擋後，你利用git log 就可以發現commit message已經更改成功。
 
 
-#### 編輯其中一個message - edit
+### 編輯其中一個message - edit
 
 如果你今天要編輯某一個commit message，
 把pick 修改成e：
@@ -81,7 +79,7 @@ git rebase --continue
 你再去查看log，就可以發現commit message 已經更改成功。
 
 
-#### 合併 commit message - squash
+### 合併 commit message - squash
 
 如果你今天你想要把某兩個commit合成一個commit，你就可以使用 squash，
 把pick 修改成s：
@@ -95,3 +93,9 @@ s 3adf8be "Your commit message"
 ![git squash](/images/squash1.png)
 再看log 你會發現他們確實被合併了。
 ![git squash2](/images/squash2.png)
+
+
+### 合併 commit message - fixup
+
+跟squash一樣，他會幫你合併多個commit message，但是他會直接幫你刪掉commit messages，
+只留下第一個commit的message。
