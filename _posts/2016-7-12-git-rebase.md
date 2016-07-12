@@ -35,10 +35,10 @@ git rebase -i HEAD~3
 git rebase -i commit version
 ```
 這裡的 commit version可以透過git log 查看你的commit，通常commit 版本都會是一長串亂碼，
-只需要複製前六碼就可以辨認為你的commit version，
-這個指令可以去更改你指令的commit 之後的commit message。
+只需要複製前七碼就可以辨認為你的commit version，
+這個指令可以去更改你的commit 以及 commit message。
 
-今天我打了 git rebase -i HEAD~5
+今天我打了 _git rebase -i HEAD~5_
 ![git](/images/rebase1.png)
 你可以看到下面commands部分他寫出你可以做什麼動作。
 
