@@ -99,3 +99,17 @@ s 3adf8be "Your commit message"
 
 跟squash一樣，他會幫你合併多個commit message，但是他會直接幫你刪掉commit messages，
 只留下第一個commit的message。
+
+把pick 修改成f：
+
+```
+f 3adf8be "Your commit message"
+```
+
+### 刪除 commit
+
+這個動作不只刪掉你的commit message，他連妳這個commit所更改的程式碼都一起刪掉，
+你只要將整排pick都刪掉，這個commit就被你刪掉了。
+
+![git delete](/images/delete1.png)
+![git delete2](/images/delete2.png)
