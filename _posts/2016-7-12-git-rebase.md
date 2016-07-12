@@ -40,4 +40,21 @@ git rebase -i commit version
 這個指令可以去更改你指令的commit 之後的commit message。
 
 今天我打了 git rebase -i HEAD~5
-![toeic](/images/rebase1.png)
+![git](/images/rebase1.png)
+
+如果你今天要編輯某一個commit message，
+把pick 修改成e：
+```
+e 3adf8be add test comment1.
+```
+儲存完畢後跳出來，再輸入
+```
+git rebase --amend
+```
+對你的commit message 進行修改
+```
+git rebase --continue
+```
+你再去查看log，就可以發現commit message 已經更改成功。
+
+![git2](/images/rebase2.png)
