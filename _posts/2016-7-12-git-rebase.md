@@ -8,12 +8,11 @@ title: git rebase - 修改commit messages 筆記
 我看了自己的pull request，才發現我的commit message 有夠亂，這樣子的確會造成他人的困擾，因此寫這篇做個筆記一下。
 
 我的程式碼跟commit message 都已經push出去了，
-這時候如果你要修改commit message，有以下方法可以達成，
+這時候如果你要修改commit message，有以下方法可以達成。
 
+__第一次嘗試的人，強烈建議你先自己開一個branch來玩看看__
 
 如果你只是想要修改上一個commit，可以用下面這個指令：
-
-## 修改最近的一個 commit message
 
 ```
 git commit --amend
