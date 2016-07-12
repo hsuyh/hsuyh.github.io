@@ -45,6 +45,7 @@ git rebase -i commit version
 ![git](/images/rebase1.png)
 你可以看到下面commands部分他寫出你可以做什麼動作。
 
+
 #### 編輯其中一個message - reword
 如果你今天要編輯某一個commit message，
 把pick 修改成r：
@@ -54,6 +55,7 @@ r 3adf8be “Your commit message”
 ```
 存擋後他會導到另一個vim下，你可以對你的commit message 進行編輯。
 再次存擋後，你利用git log 就可以發現commit message已經更改成功。
+
 
 #### 編輯其中一個message - edit
 
@@ -78,9 +80,8 @@ git rebase --continue
 
 你再去查看log，就可以發現commit message 已經更改成功。
 
+
 #### 合併 commit message - squash
-
-
 
 如果你今天你想要把某兩個commit合成一個commit，你就可以使用 squash，
 把pick 修改成s：
