@@ -10,7 +10,7 @@ title: git rebase - 修改commit messages 筆記
 我的程式碼跟commit message 都已經push出去了，
 這時候如果你要修改commit message，有以下方法可以達成。
 
-_溫馨提醒：第一次嘗試的人，強烈建議你先自己開一個branch來玩看看_
+**_溫馨提醒：第一次嘗試的人，強烈建議你先自己開一個branch來玩看看_**
 
 如果你只是想要修改上一個commit，可以用下面這個指令：
 
