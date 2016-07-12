@@ -38,7 +38,7 @@ git rebase -i commit version
 只需要複製前七碼就可以辨認為你的commit version，
 這個指令可以去更改你的commit 以及 commit message。
 
-今天我打了 _git rebase -i HEAD~5_
+今天我打了 _＄git rebase -i HEAD~5_
 ![git](/images/rebase1.png)
 你可以看到下面commands部分他寫出你可以做什麼動作。
 
@@ -50,8 +50,8 @@ git rebase -i commit version
 ```
 r 3adf8be “Your commit message”
 ```
-存擋後他會導到另一個vim下，你可以對你的commit message 進行編輯。
-再次存擋後，你利用git log 就可以發現commit message已經更改成功。
+存擋後他會導到vim模式下，你可以對你的commit message 進行編輯。
+再次存擋後，你可以利用git log，就可以發現commit message已經更改成功。
 
 
 ### 編輯其中一個message - edit
@@ -69,7 +69,7 @@ e 3adf8be "Your commit message"
 git commit --amend
 ```
 
-對你的commit message 進行修改
+在vim下，對你的commit message 進行修改
 
 ```
 git rebase --continue
