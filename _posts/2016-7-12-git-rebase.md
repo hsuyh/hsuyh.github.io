@@ -13,7 +13,7 @@ title: git rebase 筆記
 
 如果你只是想要修改上一個commit，可以用下面這個指令：
 
-```
+```ruby
 git commit --amend
 ```
 你就可以像在vim底下編輯一下，直接修改你上一個 commit message。
