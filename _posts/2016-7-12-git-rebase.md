@@ -22,14 +22,14 @@ git commit --amend
 
 不過一般情況下，我們需要整理多個commit message的時候，就有以下兩種方法：
 
-1.
+
 
 ```c
 git rebase -i HEAD~3
 ```
 這裡的3可以換成任何數字，意思是你要更改最近的幾個commit messages。
 
-2.
+
 
 ```c
 git rebase -i commit version
