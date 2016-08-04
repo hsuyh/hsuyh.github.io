@@ -18,7 +18,7 @@ $ cd /opt
 $ sudo tar -xzvf /home/pi/Downloads/apache-maven-3.3.9-bin.tar.gz     //我是下載到Downloads資料夾，所以這邊路徑為Download資料夾路徑下
 ```
 
-3. 必須告訴你的系統shell去哪裡讀取Maven
+3.必須告訴你的系統shell去哪裡讀取Maven
 
 ```
 $ sudoedit /etc/profile.d/maven.sh
