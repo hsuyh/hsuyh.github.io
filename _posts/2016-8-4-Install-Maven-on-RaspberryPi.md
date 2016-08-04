@@ -26,7 +26,7 @@ $ sudoedit /etc/profile.d/maven.sh
 
 4. 接著輸入
 
-```
+```c
 export M2_HOME=/opt/apache-maven-3.3.9
 export PATH=$PATH:$M2_HOME/bin
 ```
