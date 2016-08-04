@@ -3,7 +3,7 @@ layout: post
 title: 安裝maven 在 Raspberry pi 3
 ---
 
-最近想要安裝物聯網平台OM2M在Raspberry pi上，
+最近想要安裝物聯網平台[OM2M](https://wiki.eclipse.org/OM2M/one)在Raspberry pi上，
 OM2M官網上面所提供的eclipse無法直接在Raspberry pi 上去使用，
 所以我必須以command line 方式來編譯om2m，
 在編譯之前我必須安裝Maven在Raspberry pi上。
