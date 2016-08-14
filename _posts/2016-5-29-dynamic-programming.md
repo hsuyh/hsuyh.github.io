@@ -22,6 +22,10 @@ unsigned long fibo(int a){
 
 我自己測了之後，發現要找第四十幾後，都需要一段時間才有結果，要找第五十個時候，答案就出不來了...
 
+>遞回這個方法本身的優點在於程式簡潔而且可以節省記憶體空間，
+但他的缺點就是他會消耗很多的stack且運算速度較慢。
+
+
 所以只好去研究 Dynamic Programming。
 
 >Dynamic Programming包含兩部分。
