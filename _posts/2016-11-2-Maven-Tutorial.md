@@ -60,7 +60,7 @@ mvn eclipse:eclipse
 
 
 ## 使用External Dependencies
-在pom.xml的<dependencies>裡，你可以描述你需要的external dependencies，包括他的 <groupId><artifactId><version><scope>，當你在build project時，Maven就會幫你在local repository找到這些套件，若是本地端沒有的，Maven也會為你從remote端 下載回本地端，這樣下次你執行時候就不必再下載了。
+在pom.xml的<dependencies>裡，你可以描述你需要的external dependencies，包括他的 <groupId> <artifactId> <version> <scope>，當你在build project時，Maven就會幫你在local repository找到這些套件，若是本地端沒有的，Maven也會為你從remote端 下載回本地端，這樣下次你執行時候就不必再下載了。
 
 Remote repository的 [Maven套件](http://mvnrepository.com/)
 
