@@ -35,14 +35,12 @@ mvn compile
 
 編譯成功的class會被放到 ${basedir}/target/classes，這是Maven一個慣例，你不需要跟Maven說你需要的資源在哪裡、指定你的結果要在哪裡產生。
 
-  ${basedir} 通常是指pom.xml所在的地方
-
+${basedir} 通常是指pom.xml所在的地方
 
 ```
 mvn package
 ```
 根據packaging 這個element看是要製造成怎樣的格式，預設為製造jar
-
 
 ```
 mvn install
