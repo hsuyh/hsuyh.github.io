@@ -6,7 +6,7 @@ title: Maven 筆記
 ## Maven簡介
 他是一種project management的工具，可以使用慣例pattern來建立project架構，可以幫助你對java做自動化編譯。
 
-##POM
+## POM
 pom.xml 是Maven project configuration的核心，它可以說是一個樣板，你可以在這裡填上build project的資訊，Maven就會依照這個檔案來幫你編譯
 
 * project: top-level element in pom.xml
@@ -57,3 +57,13 @@ mvn clean
 mvn eclipse:eclipse
 ```
 把妳的Maven專案 轉成eclipse可以import的格式
+
+
+## 使用External Dependencies
+在pom.xml的<dependencies>裡，你可以描述你需要的external dependencies，包括他的 <groupId><artifactId><version><scope>，當你在build project時，Maven就會幫你在local repository找到這些套件，若是本地端沒有的，Maven也會為你從remote端 下載回本地端，這樣下次你執行時候就不必再下載了。
+
+Remote repository的 [Maven套件](http://mvnrepository.com/)
+
+
+參考資料：
+https://maven.apache.org/guides/getting-started/index.html
