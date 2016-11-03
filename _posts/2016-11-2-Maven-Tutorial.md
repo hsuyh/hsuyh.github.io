@@ -38,13 +38,13 @@ mvn compile
   ${basedir} 通常是指pom.xml所在的地方
 
 
-``````
+```
 mvn package
 ```
 根據packaging 這個element看是要製造成怎樣的格式，預設為製造jar
 
 
-```c
+```
 mvn install
 ```
 安裝artifact（也就是你產生的jar）在你自己的repository
@@ -53,6 +53,7 @@ mvn install
 mvn clean
 ```
 他會刪掉target下面被建立的東西
+
 ```
 mvn eclipse:eclipse
 ```
