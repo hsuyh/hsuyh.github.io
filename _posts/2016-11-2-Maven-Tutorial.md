@@ -65,5 +65,5 @@ mvn eclipse:eclipse
 Remote repository的 [Maven套件](http://mvnrepository.com/)
 
 
-參考資料：
-https://maven.apache.org/guides/getting-started/index.html
+### 參考資料：
+(https://maven.apache.org/guides/getting-started/index.html)
