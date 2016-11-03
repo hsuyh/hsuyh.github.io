@@ -27,7 +27,7 @@ pom.xml 是Maven project configuration的核心，它可以說是一個樣板，
 這裡看更多的[project description](https://maven.apache.org/components/ref/3.3.9/maven-model/maven.html)
 
 
-## POM 常用指令
+## Maven 常用指令
 
 ```c
 mvn compile
